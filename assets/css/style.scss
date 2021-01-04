@@ -1,7 +1,12 @@
 ---
 ---
 
-$conifer: #ffbe65;
+$pumpkin: #ffbe65;
+
+$header: $pumpkin !default;
 
 @import "{{ site.theme }}";
 
+header {
+  border-bottom: 1px dashed $pumpkin;
+}
