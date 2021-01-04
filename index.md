@@ -15,5 +15,5 @@ All the code is contained in a single git repo. Head over to the [buzztrax modul
 
 Besides the main repository the [buzzmachines module](https://github.com/Buzztrax/buzzmachines/blob/master/README.md) conatains a collection of open-source plugin in the buzzmachine format that can be used with buzztrax. This modules does not have releases. The conde contained here is considered finished.
 
-Finally the [design module)[https://github.com/Buzztrax/design/blob/master/README.md] is mostly interesting for developers and contains short code snippet for bug reproduction, testing new features or sketching algorithms. You can also find a bunch of python notebooks with dsp algorithms in there. Non of this is required to build and run the main application.
+Finally the [design module](https://github.com/Buzztrax/design/blob/master/README.md) is mostly interesting for developers and contains short code snippet for bug reproduction, testing new features or sketching algorithms. You can also find a bunch of python notebooks with dsp algorithms in there. Non of this is required to build and run the main application.
 
