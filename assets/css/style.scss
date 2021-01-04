@@ -2,11 +2,15 @@
 ---
 
 $pumpkin: #ffbe65;
-
-$header: $pumpkin !default;
+$header: $pumpkin;
 
 @import "{{ site.theme }}";
 
 header {
   border-bottom: 1px dashed $pumpkin;
 }
+
+header h1 {
+  color: $pumpkin;
+}
+
