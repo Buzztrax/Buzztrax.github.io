@@ -11,9 +11,9 @@ The buzztrax editor will be just one possible application of the framework we ar
 
 # Modules
 
-All the code is contained in a single git repo. Head over to the [buzztrax module]](https://github.com/Buzztrax/buzztrax/blob/master/README.md) to learn how to build the software from the sources.
+All the code is contained in a single git repo. Head over to the [buzztrax module]](https://github.com/Buzztrax/buzztrax/blob/master/README.md) to learn how to build the software from the sources. If you don't want to build the latest git snapshot, you can find stable versions in the [releases section](https://github.com/Buzztrax/buzztrax/releases).
 
-Besides the main repository the [buzzmachines module](https://github.com/Buzztrax/buzzmachines/blob/master/README.md) conatains a collection of open-source plugin in the buzz,achine format that can be used with buzztrax.
+Besides the main repository the [buzzmachines module](https://github.com/Buzztrax/buzzmachines/blob/master/README.md) conatains a collection of open-source plugin in the buzzmachine format that can be used with buzztrax. This modules does not have releases. The conde contained here is considered finished.
 
 Finally the [design module)[https://github.com/Buzztrax/design/blob/master/README.md] is mostly interesting for developers and contains short code snippet for bug reproduction, testing new features or sketching algorithms. You can also find a bunch of python notebooks with dsp algorithms in there. Non of this is required to build and run the main application.
 
