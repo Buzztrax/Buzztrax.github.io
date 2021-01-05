@@ -7,10 +7,6 @@ $header: $pumpkin;
 
 @import "{{ site.theme }}";
 
-.container {
-  background: rgba(0, 0, 0, 0.2);
-}
-
 body {
   // linear-gradient(to bottom, rgba(21, 21, 21, 0), rgba(21, 21, 21, 255)),
   background-image: url('/assets/images/buzztrax_bg.jpg');
@@ -27,4 +23,8 @@ header h1 {
   color: $pumpkin;
 }
 
+body .container {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
 
