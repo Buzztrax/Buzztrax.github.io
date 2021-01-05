@@ -7,9 +7,14 @@ $header: $pumpkin;
 
 @import "{{ site.theme }}";
 
+.container {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 body {
-  background-image: url('/assets/images/buzztrax_bg.jpg');
+  background-image: linear-gradient(to bottom, rgba(21, 21, 21, 255), rgba(21, 21, 21, 0)),url('/assets/images/buzztrax_bg.jpg');
   background-repeat: no-repeat;
+  background-position: top: 20px;
 }
 
 header {
