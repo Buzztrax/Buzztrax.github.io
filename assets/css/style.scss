@@ -7,11 +7,19 @@ $header: $pumpkin;
 
 @import "{{ site.theme }}";
 
+.container {
+  margin: 40 0 0 0 auto;
+  background-image: url('/assets/images/buzztrax_bg.jpg');
+  background-repeat: no-repeat;
+}
+
 header {
   border-bottom: 1px dashed $pumpkin;
+  margin: 0;
 }
 
 header h1 {
   color: $pumpkin;
 }
+
 
