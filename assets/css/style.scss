@@ -12,9 +12,11 @@ $header: $pumpkin;
 }
 
 body {
-  background-image: linear-gradient(to bottom, rgba(21, 21, 21, 255), rgba(21, 21, 21, 0)),url('/assets/images/buzztrax_bg.jpg');
+  // linear-gradient(to bottom, rgba(21, 21, 21, 0), rgba(21, 21, 21, 255)),
+  background-image: url('/assets/images/buzztrax_bg.jpg');
   background-repeat: no-repeat;
-  background-position: top: 20px;
+  background-position: 0 200px;
+  background-blend-mode: lighten;
 }
 
 header {
