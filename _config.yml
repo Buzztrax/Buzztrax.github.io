@@ -2,3 +2,5 @@ theme: jekyll-theme-hacker
 markdown: kramdown
 title: Buzztrax
 description: open source all in one music composer
+show_downloads: true
+
